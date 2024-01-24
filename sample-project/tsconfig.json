@@ -10,7 +10,10 @@
     "noImplicitAny": true,
     "plugins": [
       {
-        "name": "typescript-strict-plugin"
+        "name": "typescript-strict-plugin",
+        "paths": [
+          "./src"
+        ]
       }
     ]
   }
